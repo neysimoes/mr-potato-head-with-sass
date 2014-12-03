@@ -1,0 +1,78 @@
+.eyes, .mouth, .mustache, .hat, .nose {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+/*  Absolute center
+  ========================================================================== */
+.eyes {
+  top: 100px;
+  background: url(img/eyes.png) no-repeat;
+  background-size: 100%; }
+
+.hat {
+  background: url(img/hat.png) no-repeat; }
+
+.mouth {
+  top: 280px;
+  background: url(img/mouth.png) no-repeat;
+  background-size: 100%; }
+
+.mustache {
+  top: 270px;
+  background: url(img/mustaches.png) no-repeat;
+  background-size: 100%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: url(img/transp_bg.png); }
+
+.potato-head {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 320px;
+  height: 453px;
+  background: url(img/body.png) no-repeat;
+  background-size: cover; }
+
+.eyes {
+  background-position: 0px -96px;
+  width: 140px;
+  height: 113px; }
+
+.mouth {
+  background-position: 0px -96px;
+  width: 174px;
+  height: 81px; }
+
+.mustache {
+  background-position: 0px -194px;
+  width: 174px;
+  height: 44px;
+  top: 257px; }
+
+.hat {
+  background-position: 0 -383px;
+  width: 373px;
+  height: 199px;
+  top: -140px;
+  left: -160px;
+  background-size: 370px; }
+
+.nose {
+  top: 220px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(img/red-nose.png);
+  background-size: 100%; }
+
+/*# sourceMappingURL=style.css.map */

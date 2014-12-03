@@ -1,0 +1,31 @@
+@import "mixins";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(img/transp_bg.png);
+}
+.potato-head {
+	@include absolute-center;
+	width: 320px;
+	height: 453px;
+	background: url(img/body.png) no-repeat;
+	background-size: cover;
+}
+.eyes {
+	@include eyes(two);
+}
+.mouth {
+	@include mouth(two);
+}
+.mustache {
+	@include mustache(five);
+}
+.hat {
+	@include hat(two);
+}
+.nose {
+	@include nose;
+}
